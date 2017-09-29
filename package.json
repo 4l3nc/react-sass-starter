@@ -1,0 +1,38 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "Simple starter package for React with Redux, SASS, Babel and Webpack 2",
+  "main": "index.js",
+  "repository": "https://github.com/4l3nc/react-sass-starter.git",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot --inline"
+  },
+  "author": "Alenc",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-form": "^7.0.4",
+    "webpack": "2.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap-sass": "3.3.7",
+    "css-hot-loader": "1.1.1",
+    "css-loader": "0.28.4",
+    "extract-text-webpack-plugin": "2.1.0",
+    "file-loader": "0.11.2",
+    "node-sass": "4.5.3",
+    "react-hot-loader": "3.0.0-beta.7",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "url-loader": "0.5.8",
+    "webpack-dev-server": "2.4.5"
+  }
+}
